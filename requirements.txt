@@ -1,0 +1,12 @@
+llama-index
+streamlit
+pymupdf
+groq
+python-dotenv
+llama-index-llms-groq
+sentence-transformers
+openai
+llama-index-embeddings-huggingface
+llama-index-llms-anthropic
+PyMuPDF
+llama-index-llms-openai
