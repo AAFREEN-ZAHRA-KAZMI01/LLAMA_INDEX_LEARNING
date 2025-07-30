@@ -3,7 +3,7 @@ import streamlit as st
 from utils.rag_engine import build_chat_engine_from_file
 import tempfile
 import os
-
+os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 st.set_page_config(page_title="RAG Chatbot", page_icon="🤖")
 
 st.title("📄 Document Q&A Chatbot")
